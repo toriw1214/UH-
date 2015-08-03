@@ -48,3 +48,23 @@ h1{
 li1{
   color: blue;
 }
+  
+  
+  #container {
+    position: relative;
+}
+
+#left {
+    width: 300px;
+    background: red;
+}
+
+#right {
+    position: absolute;
+    left: 300px; 
+    right: 0px;
+    top: 0px; bottom: 0px;
+    background: green;
+}
+  
+  
