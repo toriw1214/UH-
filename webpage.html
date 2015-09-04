@@ -1,37 +1,35 @@
 <html>
-  
-  <h2 class="offscreen">W3C Web Resources</h2>
-<div id="hmenu">
-<ul>
-  <li><a href="http://www.uhcougars.com/"> Official Website</a></li>
-  <li><a href="SummerCamp.pdf">Summer Camps</a></li>
-  <li><a href="http://www.houstonalumni.com/s/1442/2/start.aspx?gid=2&pgid=61"> Alumni </a></li>
-  <li><a href="">Tickets</a></li>
-  
-</ul>  
-</div> 
-  
-      
+ 
 <head>
+  <title> Houston Track and Field </title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body>
+  
+  <body1>
+    
+  <h2 class="offscreen"></h2>
+    
+  <div id="hmenu">
+    <ul>
+      <li><a href="http://www.uhcougars.com/"> Official Website</a></li>
+      <li><a href="SummerCamp.pdf">Summer Camps</a></li>
+      <li><a href="http://www.houstonalumni.com/s/1442/2/start.aspx?gid=2&pgid=61"> Alumni </a></li>
+      <li><a href="">Tickets</a></li>
+    </ul>  
+  </div> 
 
-  <a name="NEW TRACK"></a>
-  
-  <title>Houston Track & Field</title> 
-  
+  <div>
   <!-- header picture-->
-    <IMG SRC="yeoman-header.jpg" ALT=WIDTH=300 HEIGHT=250> 
-  
-       <table>
-   <tr>
-      <td>
-        
+    <IMG SRC="yeoman-header.jpg" ALT=WIDTH=1024 HEIGHT=640> 
+  </div>
+    
+    <table>
+        <td>
+     <center>
         <div id="container">
     <div id="left"> <!--left one-->
   
-</div>
+  </div>
         
   <h1>2015/2016 Schedule</h1>
   <h2> roster </h2>
@@ -42,6 +40,8 @@
   <h3></h3>
   
       <p> Upcoming events for the season/ things to look forward to/ NEW TRACK! <a href="#NEW TRACK">ckeck it out</a> </p>
+         
+          
           
               <!--video-->
  <iframe width="320" height="240"src="IMG_0154.mov"></iframe> 
@@ -53,62 +53,50 @@
         
 
           <div id="right"> <!--right one-->
+            
+            <center>
           <h4>
         NEW HEAD COACH CARL LEWIS
+            
         Track and field athlete Carl Lewis competed in four Olympic Games. He won nine gold medals, including four         at the 1984 Olympics in Los Angeles.
-          
+          </center>
+              
         </h4>
         
+            <center>
            <!-- picture -->
-           <img src="http://a5.files.biography.com/image/upload/c_fill,cs_srgb,dpr_2.0,g_face,h_100,q_50,w_100/MTE5NDg0MDU0Njc5MTYwMzM1.jpg" class="ng-scope" ng-if="image" ng-src="http://a5.files.biography.com/image/upload/c_fill,cs_srgb,dpr_2.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU0Njc5MTYwMzM1.jpg" alt="Carl Lewis" itemprop="image" nopin="true" data-pin-no-hover="true">
+           <img src="http://a5.files.biography.com/image/upload/c_fill,cs_srgb,dpr_2.0,g_face,h_100,q_50,w_100/MTE5NDg0MDU0Njc5MTYwMzM1.jpg" class="ng-scope" ng-if="image" ng-src="http://a5.files.biography.com/image/upload/c_fill,cs_srgb,dpr_2.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU0Njc5MTYwMzM1.jpg" alt="Carl Lewis" itemprop="image" nopin="true" data-pin-no-hover="true">  
+            </center>
+            
+            <center>
+            <p4>
+              Track and field athlete Carl Lewis was born on July 1, 1961, in Birmingham, Alabama. He qualified for the Olympics in 1980, but did not participate because of the U.S. boycott of the Moscow Games. He did go on to compete in four Olympic Games—1984 in Los Angeles, 1988 in Seoul, 1992 in Barcelona and 1996 in Atlanta. He won numerous gold and silver medals before his retirement in 1997.
+            </p4>
+            </center> 
           
         </div>
       </td>
+    </table>
+          
+          <center>
+            
+      <h5>
+        Comments, question or concerns!?
+      </h5>
+          <!--comment boxes-->
+          <form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
 
-     
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      ......
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      .......
-</body>
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+          </center>    
+          
+</body1>
 </html>
